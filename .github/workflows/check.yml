@@ -35,7 +35,7 @@ jobs:
         env:
           GMAIL_USER: ${{ secrets.GMAIL_USER }}
           GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
-          MAIL_TO: saufianas03@gmail.com
+          MAIL_TO: saufianas03@gmail.com, youssefsaufi@gmail.com
           TEST_EMAIL: ${{ inputs.test_email && '1' || '0' }}
         run: python check_cas.py
 
